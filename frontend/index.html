@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Language Detection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Language Detector</h1>
+    <video id="video" autoplay playsinline muted></video>
+    <div class="prediction-box">
+      <p>Prediction: <span id="prediction">Detecting...</span></p>
+    </div>
+    <p class="note">Show one hand gesture at a time. Works best with a clear background.</p>
+    <button id="toggle-camera-btn">Stop Camera</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

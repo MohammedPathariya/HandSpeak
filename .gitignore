@@ -1,0 +1,15 @@
+# Ignore images and raw data
+captured_data/images/
+captured_data/landmarks/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment if any
+venv/
+.env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
