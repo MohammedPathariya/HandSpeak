@@ -1,6 +1,6 @@
 const videoElement = document.getElementById("video");
 const predictionText = document.getElementById("prediction");
-const BACKEND_URL = "/predict";
+const BACKEND_URL = "https://pathariyamohammed-handspeak-backend.hf.space";
 
 // === Setup MediaPipe Hands ===
 const hands = new Hands({
