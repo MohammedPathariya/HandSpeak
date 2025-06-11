@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/predict",
+      "destination": "https://pathariyamohammed--handspeak-backend.hf.space/predict"
+    }
+  ]
+}
